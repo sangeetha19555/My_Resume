@@ -3,14 +3,14 @@ export function Header() {
   return (
     <div>
       <header id="header">
-        <a href="#" className="logo">
+        <a href="#ref" className="logo">
           S
         </a>
         <div className="toggle"></div>
         <div className="navbar">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
               <a href="#skill">Skills</a>

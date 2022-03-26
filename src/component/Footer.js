@@ -26,11 +26,18 @@ export function Footer() {
             {/* list 1 */}
             <li>
               <div className="footer_icon_container">
-                <a href="#" className="footer_icon_box">
+                <a
+                  href="https://github.com/Sangeetha19057"
+                  className="footer_icon_box"
+                >
                   <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
                 <p className="footer_icon_box--text">
-                  <a href="https://github.com/Sangeetha19057" target="_blank">
+                  <a
+                    href="https://github.com/Sangeetha19057"
+                    target="_blank"
+                    rel="noopener"
+                  >
                     Sangeetha19057
                   </a>
                 </p>
@@ -40,7 +47,10 @@ export function Footer() {
             {/* list 2 */}
             <li>
               <div className="footer_icon_container">
-                <a href="#" className="footer_icon_box">
+                <a
+                  href="mailto:sangeeswty4@gmail.com"
+                  className="footer_icon_box"
+                >
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                 </a>
                 <p className="footer_icon_box--text">
@@ -54,7 +64,7 @@ export function Footer() {
             {/* list 3 */}
             <li>
               <div className="footer_icon_container">
-                <a href="#" className="footer_icon_box">
+                <a href="tel:+91 8190872950" className="footer_icon_box">
                   <i class="fa fa-phone" aria-hidden="true"></i>
                 </a>
                 <p className="footer_icon_box--text">

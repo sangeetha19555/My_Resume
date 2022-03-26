@@ -54,12 +54,13 @@ export function Home() {
             href="https://drive.google.com/file/d/1UicnY7sOJ6Kp-Yxf9exHbfE_uOpSX4AV/view?usp=sharing"
             target="_blank"
             class="btn"
+            rel="noopener"
           >
             Download My CV
           </a>
         </div>
 
-        <div class="header-footer-icons">
+        {/* <div class="header-footer-icons">
           <ul class="sci">
             <li>
               <a href="#">
@@ -78,7 +79,7 @@ export function Home() {
             </li>
           </ul>
           <p class="copyrightText">@2021 sangeetha</p>
-        </div>
+        </div> */}
       </section>
     </div>
   );
