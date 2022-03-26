@@ -1,0 +1,203 @@
+/* footer style starts */
+
+.footer-container {
+  width: 100%;
+  padding: 50px 40px;
+  height: auto;
+  color: aliceblue;
+  background-color: rgb(31, 29, 29);
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  grid-gap: 10px;
+}
+/* ============== */
+.footer-container_copyrightText {
+  font-size: 14px;
+  width: 100%;
+  background-color: #181818;
+  padding: 8px 100px;
+  text-align: center;
+  color: #999;
+}
+.footer-container_image {
+  width: 300px;
+}
+.copyright_name {
+  color: #ff5e8e;
+}
+
+/* footer style ends */
+
+/* ==================== */
+.footer-container_text {
+  margin-right: 30px;
+}
+
+.footer-container_text li {
+  list-style-type: none;
+}
+.footer-container_text li .footer_icon_box {
+  display: block;
+  color: rgb(216, 211, 211);
+  text-decoration: none;
+  margin-left: 50px;
+  padding: 10px;
+  font-size: 15px;
+}
+.footer-container_text li .footer_icon_box .fa {
+  margin-right: 0px;
+}
+.footer-container_text h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: -25px;
+  text-transform: uppercase;
+}
+.footer-container_text h2 .fa {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.footer-container_text h2:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  bottom: -10px;
+  left: 43px;
+  background-color: #0099ff;
+}
+
+/*my contact*/
+.footer-container_text .sci_icon {
+  position: relative;
+  /* display: flex; */
+}
+.footer_icon_container {
+  display: flex;
+}
+.footer_icon_box--text {
+  margin-top: 20px;
+}
+.footer_icon_box--text a {
+  color: #0099ff;
+  text-decoration: none;
+}
+.footer_icon_box--text a:hover {
+  color: #939697;
+}
+.footer-container_text .sci_icon li {
+  position: relative;
+  list-style-type: none;
+}
+.footer-container_para {
+  margin: 10px 20px;
+}
+.footer-container_text .sci_icon li .footer_icon_box {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin: 10px 20px;
+  text-decoration: none;
+  /* font-size: 2px; */
+  border-radius: 5px;
+  color: #9b9696;
+  box-shadow: inset -1px -1px 2px rgba(124, 123, 123, 0.2),
+    2px 2px 5px rgba(236, 232, 232, 0.2);
+  transition: 0.5s;
+}
+
+.footer-container_text li .footer_icon_box:hover {
+  color: #999;
+  transform: translateY(-10px);
+  box-shadow: inset -1px -1px 2px rgba(187, 185, 185, 0.2),
+    2px 24px 10px rgba(196, 191, 191, 0.2);
+}
+
+.footer-container_text li .footer_icon_box .fa {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 23px;
+}
+
+.footer-container_text li .footer_icon_box:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border-radius: 2px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-container_text li:nth-child(1) .footer_icon_box:before {
+  background-color: #3a383a;
+}
+
+.footer-container_text li:nth-child(3) .footer_icon_box:before {
+  background-color: #0e9cf5;
+}
+
+.footer-container_text li:nth-child(2) .footer_icon_box:before {
+  background-color: #f71616;
+}
+
+@media (max-width: 991px) {
+  .footer-container {
+    margin-top: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-container_image {
+    width: 250px;
+  }
+  .footer-container_copyrightText {
+    flex-direction: column;
+  }
+  .footer-container_copyrightText {
+    margin-right: 0;
+  }
+  .copyrightText {
+    padding: 8px 30px;
+  }
+  .footer-container_text h2 {
+    font-size: 16px;
+  }
+  .footer-container_text h2 .fa {
+    font-size: 20px;
+  }
+  .footer-container_text h2:before {
+    left: 35px;
+  }
+  .footer-container_text .sci_icon li .footer_icon_box {
+    margin: 10px 10px;
+    font-size: 14px;
+  }
+  .footer-container_para {
+    margin: 10px 10px;
+    font-size: 14px;
+  }
+  .footer-container_text .sci_icon li .footer_icon_box {
+    width: 35px;
+    height: 35px;
+  }
+  .footer-container_text li .footer_icon_box .fa {
+    font-size: 19px;
+  }
+}
+@media (max-width: 769px) {
+  .footer-container_image {
+    width: 300px;
+  }
+}
