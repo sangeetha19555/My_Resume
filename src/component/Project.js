@@ -46,7 +46,7 @@ export default function Project() {
                       <a
                         href="https://affectionate-amine-api-task.netlify.app"
                         target="_blank"
-                        rel="opener"
+                        rel="noopener noreferrer"
                       >
                         <OpenInNewIcon
                           className="icon_color"
@@ -119,7 +119,7 @@ export default function Project() {
                       <a
                         href="https://affectionate-amine-api-task.netlify.app"
                         target="_blank"
-                        rel="opener"
+                        rel="noopener noreferrer"
                       >
                         <OpenInNewIcon
                           className="icon_color"
@@ -193,7 +193,7 @@ export default function Project() {
                       <a
                         href="https://affectionate-amine-api-task.netlify.app"
                         target="_blank"
-                        rel="opener"
+                        rel="noopener noreferrer"
                       >
                         <OpenInNewIcon
                           className="icon_color"
@@ -267,7 +267,7 @@ export default function Project() {
                       <a
                         href="https://affectionate-amine-api-task.netlify.app"
                         target="_blank"
-                        rel="opener"
+                        rel="noopener noreferrer"
                       >
                         <OpenInNewIcon
                           className="icon_color"
