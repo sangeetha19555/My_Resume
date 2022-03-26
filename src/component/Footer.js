@@ -36,7 +36,7 @@ export function Footer() {
                   <a
                     href="https://github.com/Sangeetha19057"
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                   >
                     Sangeetha19057
                   </a>

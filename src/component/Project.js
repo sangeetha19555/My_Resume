@@ -38,6 +38,7 @@ export default function Project() {
                   <a
                     href="https://github.com/Sangeetha19057/Anime_API_Task"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
                   </a>

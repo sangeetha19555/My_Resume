@@ -54,7 +54,7 @@ export function Home() {
             href="https://drive.google.com/file/d/1UicnY7sOJ6Kp-Yxf9exHbfE_uOpSX4AV/view?usp=sharing"
             target="_blank"
             class="btn"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Download My CV
           </a>
