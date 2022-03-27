@@ -1,11 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&family=Eater&display=swap");
-/* font-family: 'Cairo', sans-serif; */
-/* font-family: 'Eater', cursive; */
 .project-container {
+  padding: 1px 0px 0px 0px;
   background-color: rgb(255, 255, 253);
 }
+/* Project title */
+
+.title {
+  text-align: center;
+}
+
+.titleText {
+  font-size: 2em;
+  font-weight: 300;
+  color: #111;
+}
+
+.titleText span {
+  position: relative;
+  /* color: #ff0157; */
+  color: #08aac7;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+/* Project title */
 .project-container-title {
   text-align: center;
+  margin: 60px 0px;
+}
+.project-container-title h1 {
+  text-transform: uppercase;
+  margin: 0px 0px 20px 0px;
+}
+.project-container-title p {
+  color: #454547;
+  font-size: 19px;
 }
 .project-box {
   margin: 30px 50px;
@@ -97,7 +125,7 @@
   background-color: rgb(0 183 255 / 33%);
   box-shadow: 0px 1px 7px 1px #07dbe4;
 }
-/* ================================ */
+
 @media (min-width: 1240px) {
   .project-box__container {
     max-width: 550px;
@@ -126,21 +154,41 @@
   }
 }
 @media (max-width: 600px) {
+  .titleText {
+    font-size: 1.5em;
+  }
+  .project-box__content h2 {
+    font-size: 20px;
+  }
+  .project-container-title p {
+    font-size: 12px;
+  }
+  .text_explaination {
+    font-size: 14px;
+  }
   .project-box {
     margin: 0px;
     grid-gap: 40px;
   }
   .project-box__container {
     max-width: 450px;
-    /* min-height: 120px;
-    max-height: 290px; */
   }
+
   .project-box__container .project_image {
     max-width: 450px;
+  }
+  .project-box__content--code_icons .code_icons {
+    padding: 2px 3px 0px 4px;
+  }
+  .project-box__content--code_icons .code_icons .text {
+    font-size: 13px;
   }
 }
 
 @media (max-width: 470px) {
+  .project-box__content {
+    padding: 0px 5px 20px 12px;
+  }
   .project-box__container {
     min-width: 120px;
     max-width: 340px;
@@ -162,3 +210,9 @@
     /* max-height: 200px; */
   }
 }
+
+/* .project-box__content {
+    padding: 0px 10px 20px 11px;
+    color: #fff;
+    font-family: "Cairo", sans-serif;
+} */

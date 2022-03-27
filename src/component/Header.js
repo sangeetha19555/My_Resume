@@ -3,14 +3,17 @@ export function Header() {
   return (
     <div>
       <header id="header">
-        <a href="#ref" className="logo">
-          S
-        </a>
+        <div href="#ref" className="logo">
+          <h3>
+            <span className="logo_text-1">&#x2774;</span>S
+            <span className="logo_text-2">&#x2775;</span>
+          </h3>
+        </div>
         <div className="toggle"></div>
         <div className="navbar">
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
               <a href="#skill">Skills</a>

@@ -2,9 +2,8 @@ import "./Footer.css";
 //Footer Page
 export function Footer() {
   return (
-    <div>
-      {/* <img src="/images/green.png" alt="green_image" width="100%" /> */}
-      <div className="footer-container">
+    <div id="contact">
+      <div className="footer-container" id="contact_us">
         <div className="">
           <img
             // src="https://freepikpsd.com/file/2019/10/contact-us-icon-png-7-Transparent-Images.png"
@@ -17,11 +16,11 @@ export function Footer() {
           <h2>
             <i class="fa fa-thumbs-up" aria-hidden="true"></i> Contact
           </h2>
+          {/* Feel free to talk to me. I live in kuwait time zone. */}
           <p className="footer-container_para">
-            I’m a data analyst turned full-stack software engineer with a
-            penchant for creative activities.
+            I'm currently open to work as a Front-end Developer. Let's get in
+            touch and talk more about your projects.
           </p>
-
           <ul class="sci_icon">
             {/* list 1 */}
             <li>
@@ -65,7 +64,7 @@ export function Footer() {
             <li>
               <div className="footer_icon_container">
                 <a href="tel:+91 8190872950" className="footer_icon_box">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
                 </a>
                 <p className="footer_icon_box--text">
                   <a href="tel:+91 8190872950">+91 8190872950</a>

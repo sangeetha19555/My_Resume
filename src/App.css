@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -20,18 +21,45 @@ header {
   width: 100%;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
   z-index: 1;
-  background-color: #bfc4c7;
+  background-color: #f6fbfd;
 }
 .logo {
-  height: 60px;
+  height: 50px;
+  width: 60px;
   line-height: 60px;
-  color: #12334e;
+  border-radius: 10px;
+  padding: 0px 10px;
   font-size: 2em;
   font-weight: 700;
   cursor: pointer;
-  padding-left: 20px;
   text-decoration: none;
+  margin: 5px 0px 0px 20px;
 }
+.logo h3 {
+  position: relative;
+  top: -4px;
+  text-align: center;
+  color: #08aac7;
+}
+.logo_text-1 {
+  margin-right: 10px;
+  font-size: 45px;
+  color: #080808;
+}
+.logo_text-2 {
+  margin-left: 10px;
+  font-size: 45px;
+  color: #0a0a0a;
+}
+/* .logo {
+  width: 40px;
+  background-color: #071b4b;
+  height: 40px;
+  text-align: center;
+  padding-top: -15px;
+  font-size: 28px;
+  border-radius: 10px;
+} */
 /* .toggle {
   position: absolute;
   top: 0;
@@ -74,12 +102,9 @@ header {
 .navbar {
   position: relative;
   height: 60px;
-  /* right: 60px; */
-  /* background-color: #fff; */
   transition: 0.5s;
   width: 400px;
-  margin-right: 50px;
-  /* width: 0px; */
+  margin-right: 30px;
   overflow: hidden;
 }
 .navbar.active {
@@ -104,14 +129,14 @@ header {
   letter-spacing: 2px;
 }
 .navbar ul li a:hover {
-  background: #9051ff;
+  background: #08aac7;
   color: #fff;
 }
 
 /* media query */
 @media (max-width: 991px) {
   .navbar {
-    margin-right: 5px;
+    margin-right: 0px;
   }
   .navbar ul li a {
     font-size: 1em;
@@ -152,7 +177,17 @@ header {
   align-items: center;
   transition: 1s;
 }
-
+.sci .fa {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 35px;
+  color: #777;
+}
+.sci .fa:hover {
+  background-color: rgb(197, 194, 194);
+  color: #08aac7;
+  transform: scale(1.2);
+}
 /*  profile_imgBx styles starts*/
 
 .sec .profile_imgBx {
@@ -175,7 +210,7 @@ header {
 }
 .sec .content h2 span {
   font-weight: 700;
-  color: #2196f3;
+  color: #f3218a;
   font-size: 2em;
 }
 .sec .content p {
@@ -231,13 +266,29 @@ header {
   display: inline-block;
   padding: 10px 20px;
   text-decoration: none;
-  background: #ff1455;
   color: #fff;
   font-weight: 500;
   border-radius: 4px;
   letter-spacing: 1px;
 }
+.btn-contact {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #08aac7;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid #08aac7;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+.btn-contact:hover {
+  background-color: #777;
+  color: #ffffff;
+}
 /* media query starts here */
+
 @media (max-width: 991px) {
   .sec {
     padding: 40px;
@@ -258,10 +309,10 @@ header {
     margin-left: 0;
     max-width: 100%;
   }
-  .header-footer-icons {
+  /* .header-footer-icons {
     flex-direction: column;
     align-items: flex-start;
-  }
+  } */
   .sec .content h2 span {
     font-size: 1.8em;
   }
@@ -278,6 +329,34 @@ header {
   }
   .sec .content h2 {
     line-height: 1.6em;
+  }
+  .navbar {
+    width: 350px;
+  }
+  .navbar ul li a {
+    padding: 0px 9px;
+    letter-spacing: 0px;
+  }
+  .navbar ul {
+    justify-content: flex-end;
+  }
+  .logo {
+    margin: 4px 0px 0px 0px;
+  }
+  .logo h3 {
+    top: -6px;
+    font-size: 28px;
+  }
+  .logo_text-1 {
+    margin-right: 6px;
+    font-size: 34px;
+  }
+  .logo_text-2 {
+    margin-left: 6px;
+    font-size: 34px;
+  }
+  .header-footer-icons {
+    flex-direction: column;
   }
 }
 /* styles for profile pics starts here */
@@ -332,24 +411,35 @@ header {
   max-width: 700px;
   margin-left: 40px;
 }
+.profile-content_hello_image {
+  width: 60px;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
 .profile-content h2 {
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   color: #777;
   line-height: 2.2em;
 }
 .profile-content h2 span {
-  font-weight: 700;
-  color: #2196f3;
-  font-size: 2em;
+  font-family: "Arizonia", cursive;
+  font-weight: 500;
+  color: #08aac7;
+  font-size: 3em;
 }
 .profile-content p {
   color: #777;
-  font-size: 1.1em;
+  font-size: 2em;
   margin-bottom: 20px;
+  letter-spacing: 2px;
 }
 .profile-content .btn {
-  background-color: #2196f3;
+  background-color: #08aac7;
+}
+.profile-content .btn:hover {
+  background-color: #777;
 }
 /* hire me button style */
 .btn {
@@ -405,11 +495,26 @@ header {
   left: 42%;
 }
 
+@media (max-width: 1240px) {
+  .profile-content h2 span {
+    font-size: 2.2em;
+  }
+  .profile-content p {
+    font-size: 1.8em;
+    letter-spacing: 1px;
+  }
+}
 @media (max-width: 992px) {
+  .profile-content_hello_image {
+    width: 45px;
+  }
   .profile_conatiner {
     padding: 40px;
     flex-direction: column;
     justify-content: center;
+  }
+  .profile-content p {
+    font-size: 1.5em;
   }
   .profile_conatiner .profile-content h2 span {
     font-size: 1.6em;
@@ -425,7 +530,12 @@ header {
     margin-top: 100px;
   }
   .profile-content h2 {
+    font-size: 20px;
     line-height: 2em;
+  }
+  .profile-content p {
+    font-size: 1.3em;
+    letter-spacing: 1px;
   }
   .profile {
     width: 200px;
@@ -439,9 +549,17 @@ header {
   }
 }
 @media (max-width: 576px) {
+  .profile-content p {
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+  .profile-content_hello_image {
+    width: 42px;
+  }
   .profile_conatiner {
     padding: 20px;
   }
+
   .profile {
     width: 120px;
     height: 120px;
@@ -497,9 +615,20 @@ header {
     top: 93%;
     left: 42%;
   }
+  .btn {
+    font-size: 13px;
+    padding: 10px 10px;
+  }
+  .btn-contact {
+    font-size: 13px;
+    padding: 10px 10px;
+  }
 }
 
 @media (max-width: 300px) {
+  .profile-content p {
+    letter-spacing: 1px;
+  }
   .profile {
     width: 120px;
     height: 120px;
@@ -524,3 +653,9 @@ header {
 }
 
 /* styles for profile pics Endss here */
+/* .profile-content_hello_image {
+    width: 42px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+} */

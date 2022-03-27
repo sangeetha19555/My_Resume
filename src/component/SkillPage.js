@@ -60,7 +60,7 @@ export function SkillPage() {
               </div>
               <div class="language-logos">
                 <img
-                  src="https://lh3.googleusercontent.com/proxy/_u32IOlfbqC102k-2Ji2xcP5aVgd_SP31oPC_Suo0A-rE7K2j8_sgyMwYVw8n1twsN29PbPp2gA84fbw-Diyvi6lq-2HcIQiuxI"
+                  src="https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png"
                   alt="nodejs"
                 />
               </div>

@@ -40,46 +40,56 @@ export function Home() {
         </div>
         <div class="profile-content">
           <h2>
-            Hello, I am
+            <span>
+              <img
+                className="profile-content_hello_image"
+                src="https://c.tenor.com/yWSRmymbuBkAAAAC/waving-hi.gif"
+                alt="Hai-emoji"
+              />
+            </span>
+            Hello,
             <br />
-            <span>Sangeetha</span>
+            <span> I am Sangeetha.</span>
           </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nam
-            nihil temporibus fugit! Quisquam fugit laboriosam vero quod. Velit
-            voluptatem reiciendis possimus perspiciatis et sed nulla ut odio,
-            consequatur iure.
-          </p>
+
+          <p> I'm a Full Stack Web Developer. . .</p>
+          <a href="#contact_us" class="btn-contact" rel="noopener noreferrer">
+            Contact Me
+          </a>
           <a
             href="https://drive.google.com/file/d/1UicnY7sOJ6Kp-Yxf9exHbfE_uOpSX4AV/view?usp=sharing"
             target="_blank"
             class="btn"
             rel="noopener noreferrer"
           >
-            Download My CV
+            View Resume
           </a>
         </div>
 
-        {/* <div class="header-footer-icons">
+        <div class="header-footer-icons">
           <ul class="sci">
             <li>
-              <a href="#">
-                <img src="facebook.png" alt="facebook" />
+              <a
+                href="https://github.com/Sangeetha19057"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa fa-github" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src="twitter.png" alt="facebook" />
+              <a href="mailto:sangeeswty4@gmail.com">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src="instagram.png" alt="facebook" />
+              <a href="tel:+91 8190872950">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
               </a>
             </li>
           </ul>
-          <p class="copyrightText">@2021 sangeetha</p>
-        </div> */}
+          <p class="copyrightText">@2022 sangeetha</p>
+        </div>
       </section>
     </div>
   );
