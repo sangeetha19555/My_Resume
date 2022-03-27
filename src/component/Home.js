@@ -83,7 +83,7 @@ export function Home() {
               </a>
             </li>
             <li>
-              <a href="tel:+91 8190872950">
+              <a href="tel:+91 8110872911">
                 <i class="fa fa-whatsapp" aria-hidden="true"></i>
               </a>
             </li>
