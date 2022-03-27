@@ -1,7 +1,7 @@
 // Home page
 export function Home() {
   return (
-    <div>
+    <div id="home">
       {/* <!-- Section Starts  here--> */}
       <section class="profile_conatiner">
         <div class="profile_imgBx">
