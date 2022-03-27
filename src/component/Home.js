@@ -70,7 +70,7 @@ export function Home() {
           <ul class="sci">
             <li>
               <a
-                href="https://github.com/Sangeetha19057"
+                href="https://github.com/Sangeetha"
                 target="_blank"
                 rel="noopener noreferrer"
               >
