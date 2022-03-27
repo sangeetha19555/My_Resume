@@ -1,6 +1,5 @@
 import React from "react";
 import "./Project.css";
-import GitHubIcon from "@mui/icons-material/GitHub";
 // material icons
 
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
