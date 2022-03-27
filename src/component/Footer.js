@@ -67,7 +67,7 @@ export function Footer() {
                   <i class="fa fa-whatsapp" aria-hidden="true"></i>
                 </a>
                 <p className="footer_icon_box--text">
-                  <a href="tel:+91 8190872950">+91 8190872950</a>
+                  <a href="tel:+91 8110872911">+91 8110872911</a>
                 </p>
               </div>
             </li>
