@@ -252,8 +252,8 @@ export default function Project() {
                 {/* ==================== code icon Ends here=======================*/}
 
                 <p className="text_explaination">
-                  This webpage gives live updates for COVID. Using API we get
-                  daily updates.
+                  This webpage gives live COVID updates. Using API we get daily
+                  updates.
                 </p>
               </div>
             </div>
@@ -326,7 +326,7 @@ export default function Project() {
 
                 <p className="text_explaination">
                   This is a Thirukkural webpage. We can search Thirukkural from
-                  1 to 1330 and it gives an explaination.
+                  1 to 1330 and also it gives an explaination.
                 </p>
               </div>
               {/*=========== Container Box 4 Ends Here ========= */}
