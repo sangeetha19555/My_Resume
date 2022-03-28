@@ -6,35 +6,16 @@ export function Home() {
       <section class="profile_conatiner">
         <div class="profile_imgBx">
           <div class="social-icons">
-            <img
-              src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
-              alt="html"
-            />
-            <img
-              src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"
-              alt="css"
-            />
-            <img
-              src="https://selflearning.io/uploads/subcategory/JS.png"
-              alt="css"
-              width="60px"
-            />
-            <img
-              src="https://kripton.dexignzone.com/welcome/images/icons/43.png"
-              alt="css"
-            />
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
-              alt="css"
-            />
-            <img
-              src="https://code4developers.com/wp-content/uploads/2019/10/MongoDBicon.png"
-              alt="css"
-            />
+            <img src="images/html.webp" alt="html" />
+            <img src="images/css.webp" alt="css" />
+            <img src="/images/JS.png" alt="js" width="60px" />
+            <img src="/images/react.png" alt="react" />
+            <img src="/images/bootstrap.png" alt="bootstrap" />
+            <img src="/images/MongoDBicon.png" alt="MongoDB" />
           </div>
           <img
             class="email-icon profile"
-            src="https://www.whatsappprofiledpimages.com/wp-content/uploads/2021/08/Profile-Photo-Wallpaper.jpg"
+            src="/images/Profile.jpeg"
             alt="profile"
           />
         </div>

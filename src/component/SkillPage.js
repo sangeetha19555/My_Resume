@@ -12,63 +12,36 @@ export function SkillPage() {
           <div className="language-logos-container">
             <div class="logo-box">
               <div class="language-logos">
-                <img
-                  src="https://img.icons8.com/color/144/000000/html-5--v1.png"
-                  alt="Html5"
-                />
+                <img src="images/skill_html.png" alt="Html5" />
               </div>
               <div class="language-logos">
-                <img
-                  src="https://img.icons8.com/color/144/000000/css3.png"
-                  alt="css3"
-                />
+                <img src="images/skill_css3.png" alt="css3" />
               </div>
               <div class="language-logos">
-                <img
-                  src="https://i.ibb.co/zx0Tt9M/bootstrap.png"
-                  alt="bootstrap"
-                />
+                <img src="images/skill_bootstrap.png" alt="bootstrap" />
               </div>
               <div class="language-logos">
-                <img
-                  src="https://img.icons8.com/color/144/000000/javascript.png"
-                  alt="Javascript"
-                />
+                <img src="images/skill_javascript.png" alt="Javascript" />
               </div>
 
               <div class="language-logos">
-                <img
-                  src="https://img.icons8.com/color/144/000000/react-native.png"
-                  alt="React"
-                />
+                <img src="images/skill_react.png" alt="React" />
               </div>
               <div class="language-logos">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antu_mongodb.svg/1200px-Antu_mongodb.svg.png"
-                  alt="MongoDB"
-                />
+                <img src="images/skill_mongodb.png" alt="MongoDB" />
               </div>
 
               <div class="language-logos">
-                <img src="https://i.ibb.co/zs6B3yR/sass.png" alt="Sass" />
+                <img src="images/skill_sass.png" alt="Sass" />
               </div>
               <div class="language-logos">
-                <img
-                  src="https://img.icons8.com/color/144/000000/material-ui.png"
-                  alt="material-ui"
-                />
+                <img src="images/skill_material-ui.png" alt="material-ui" />
               </div>
               <div class="language-logos">
-                <img
-                  src="https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png"
-                  alt="nodejs"
-                />
+                <img src="images/skill_node-js.webp" alt="nodejs" />
               </div>
               <div class="language-logos">
-                <img
-                  src="https://www.pngkey.com/png/full/178-1787508_github-icon-download-at-icons8-white-github-icon.png"
-                  alt="nodejs"
-                />
+                <img src="images/skill_github.png" alt="github" />
               </div>
             </div>
           </div>

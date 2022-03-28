@@ -75,7 +75,7 @@ export default function Project() {
                 <div className="project-box__content--code_icons">
                   <div className="code_icons bg-yellow">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
+                      src="images/project_JavaScript.png"
                       alt="js"
                       width="15px"
                     />
@@ -84,19 +84,15 @@ export default function Project() {
 
                   <div className="code_icons bg-orange">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
-                      alt="js"
+                      src="images/project_html.png"
+                      alt="html"
                       width="15px"
                     />
                     <span className="text ">Html</span>
                   </div>
 
                   <div className="code_icons bg-blue">
-                    <img
-                      src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
-                      alt="js"
-                      width="15px"
-                    />
+                    <img src="images/project_css.png" alt="css" width="15px" />
                     <span className="text">Css</span>
                   </div>
                 </div>
@@ -149,7 +145,7 @@ export default function Project() {
                 <div className="project-box__content--code_icons">
                   <div className="code_icons bg-yellow">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
+                      src="images/project_JavaScript.png"
                       alt="js"
                       width="15px"
                     />
@@ -158,19 +154,15 @@ export default function Project() {
 
                   <div className="code_icons bg-orange">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
-                      alt="js"
+                      src="images/project_html.png"
+                      alt="html"
                       width="15px"
                     />
                     <span className="text ">Html</span>
                   </div>
 
                   <div className="code_icons bg-blue">
-                    <img
-                      src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
-                      alt="js"
-                      width="15px"
-                    />
+                    <img src="images/project_css.png" alt="css" width="15px" />
                     <span className="text">Css</span>
                   </div>
                 </div>
@@ -206,7 +198,7 @@ export default function Project() {
                     <Tooltip title="Open the Link">
                       <IconButton>
                         <a
-                          href="https://mystifying-afbfa7.netlify.app/"
+                          href="https://mystifying-afbfa7.netlify.app"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -224,7 +216,7 @@ export default function Project() {
                 <div className="project-box__content--code_icons">
                   <div className="code_icons bg-yellow">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
+                      src="images/project_JavaScript.png"
                       alt="js"
                       width="15px"
                     />
@@ -233,19 +225,15 @@ export default function Project() {
 
                   <div className="code_icons bg-orange">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
-                      alt="js"
+                      src="images/project_html.png"
+                      alt="html"
                       width="15px"
                     />
                     <span className="text ">Html</span>
                   </div>
 
                   <div className="code_icons bg-blue">
-                    <img
-                      src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
-                      alt="js"
-                      width="15px"
-                    />
+                    <img src="images/project_css.png" alt="css" width="15px" />
                     <span className="text">Css</span>
                   </div>
                 </div>
@@ -297,7 +285,7 @@ export default function Project() {
                 <div className="project-box__content--code_icons">
                   <div className="code_icons bg-yellow">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
+                      src="images/project_JavaScript.png"
                       alt="js"
                       width="15px"
                     />
@@ -306,19 +294,15 @@ export default function Project() {
 
                   <div className="code_icons bg-orange">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
-                      alt="js"
+                      src="images/project_html.png"
+                      alt="html"
                       width="15px"
                     />
                     <span className="text ">Html</span>
                   </div>
 
                   <div className="code_icons bg-blue">
-                    <img
-                      src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
-                      alt="js"
-                      width="15px"
-                    />
+                    <img src="images/project_css.png" alt="css" width="15px" />
                     <span className="text">Css</span>
                   </div>
                 </div>
