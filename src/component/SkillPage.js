@@ -10,37 +10,37 @@ export function SkillPage() {
           {/* <!-- <h2>Skills</h2> -->
           <!-- logos --> */}
           <div className="language-logos-container">
-            <div class="logo-box">
-              <div class="language-logos">
+            <div className="logo-box">
+              <div className="language-logos">
                 <img src="images/skill_html.png" alt="Html5" />
               </div>
-              <div class="language-logos">
+              <div className="language-logos">
                 <img src="images/skill_css3.png" alt="css3" />
               </div>
-              <div class="language-logos">
+              <div className="language-logos">
                 <img src="images/skill_bootstrap.png" alt="bootstrap" />
               </div>
-              <div class="language-logos">
+              <div className="language-logos">
                 <img src="images/skill_javascript.png" alt="Javascript" />
               </div>
 
-              <div class="language-logos">
+              <div className="language-logos">
                 <img src="images/skill_react.png" alt="React" />
               </div>
-              <div class="language-logos">
+              <div className="language-logos">
                 <img src="images/skill_mongodb.png" alt="MongoDB" />
               </div>
 
-              <div class="language-logos">
+              <div className="language-logos">
                 <img src="images/skill_sass.png" alt="Sass" />
               </div>
-              <div class="language-logos">
+              <div className="language-logos">
                 <img src="images/skill_material-ui.png" alt="material-ui" />
               </div>
-              <div class="language-logos">
+              <div className="language-logos">
                 <img src="images/skill_node-js.webp" alt="nodejs" />
               </div>
-              <div class="language-logos">
+              <div className="language-logos">
                 <img src="images/skill_github.png" alt="github" />
               </div>
             </div>

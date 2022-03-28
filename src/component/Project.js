@@ -12,9 +12,14 @@ export default function Project() {
       <div id="project">
         <div className="project-container">
           {/* project__titile */}
+          {/* <img
+            src="https://cutewallpaper.org/21/loading-animated-gif-transparent-background/Twilight-on-the-olympic-peninsula.gif"
+            alt="loader"
+            width="300px"
+          /> */}
           <div className="project-container-title">
-            <div class="title">
-              <h2 class="titleText">
+            <div className="title">
+              <h2 className="titleText">
                 <span>P</span>roject
               </h2>
             </div>

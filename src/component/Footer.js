@@ -14,14 +14,14 @@ export function Footer() {
         </div>
         <div className="footer-container_text ">
           <h2>
-            <i class="fa fa-thumbs-up" aria-hidden="true"></i> Contact
+            <i className="fa fa-thumbs-up" aria-hidden="true"></i> Contact
           </h2>
           {/* Feel free to talk to me. I live in kuwait time zone. */}
           <p className="footer-container_para">
             I'm currently open to work as a Front-end Developer. Let's get in
             touch and talk more about your projects.
           </p>
-          <ul class="sci_icon">
+          <ul className="sci_icon">
             {/* list 1 */}
             <li>
               <div className="footer_icon_container">
@@ -29,7 +29,7 @@ export function Footer() {
                   href="https://github.com/Sangeetha"
                   className="footer_icon_box"
                 >
-                  <i class="fa fa-github" aria-hidden="true"></i>
+                  <i className="fa fa-github" aria-hidden="true"></i>
                 </a>
                 <p className="footer_icon_box--text">
                   <a
@@ -50,7 +50,7 @@ export function Footer() {
                   href="mailto:sangeeswty4@gmail.com"
                   className="footer_icon_box"
                 >
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <i className="fa fa-envelope" aria-hidden="true"></i>
                 </a>
                 <p className="footer_icon_box--text">
                   <a href="mailto:sangeeswty4@gmail.com">
@@ -64,7 +64,7 @@ export function Footer() {
             <li>
               <div className="footer_icon_container">
                 <a href="tel:+91 8190872950" className="footer_icon_box">
-                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                  <i className="fa fa-whatsapp" aria-hidden="true"></i>
                 </a>
                 <p className="footer_icon_box--text">
                   <a href="tel:+91 8190872950">+91 8190872950</a>
@@ -74,9 +74,9 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div class="footer-container_copyrightText">
+      <div className="footer-container_copyrightText">
         <p>
-          Copyright © 2022 <span class="copyright_name">Sangeetha.</span>
+          Copyright © 2022 <span className="copyright_name">Sangeetha.</span>
         </p>
       </div>
     </div>

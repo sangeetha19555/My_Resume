@@ -12,6 +12,15 @@ body {
   min-height: 100vh;
   /* overflow: hidden; */
 }
+/* loader starts*/
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* loader ends */
 header {
   position: fixed;
   top: 0;
