@@ -42,7 +42,7 @@ export function Home() {
             Contact Me
           </a>
           <a
-            href="https://drive.google.com/file/d/1UicnY7sOJ6Kp-Yxf9exHbfE_uOpSX4AV/view?usp=sharing"
+            href="https://drive.google.com/file/d/1QnYXIcL4JmuUTnpFTJqVjLYMcARLfivy/view"
             target="_blank"
             className="btn"
             rel="noopener noreferrer"
