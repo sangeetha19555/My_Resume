@@ -125,6 +125,11 @@
   background-color: rgb(0 183 255 / 33%);
   box-shadow: 0px 1px 7px 1px #07dbe4;
 }
+.bg-green {
+  color: rgb(210, 233, 247);
+  background-color: rgba(0, 255, 85, 0.33);
+  box-shadow: 0px 1px 7px 1px #3be407;
+}
 
 @media (min-width: 1240px) {
   .project-box__container {

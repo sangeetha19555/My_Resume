@@ -321,6 +321,133 @@ export default function Project() {
               {/*=========== Container Box 4 Ends Here ========= */}
               {/* =========================================================================================== */}
             </div>
+
+            {/* ============================================================================ */}
+            {/* Container Box 5 starts Here */}
+            <div className="project-box__container">
+              <div>
+                <img
+                  className="project_image"
+                  src="/images/CRUD.png"
+                  alt="Covid_image"
+                />
+              </div>
+
+              <div className="project-box__content">
+                <div className="project-box__content--box">
+                  <div className="project-box__content--box--title">
+                    <h2>UserList</h2>
+                  </div>
+                  <div className="project-box__content--box--icon">
+                    {/* <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} /> */}
+                    <Tooltip title="Open the Link">
+                      <IconButton>
+                        <a
+                          href="https://react-user-crud-app.netlify.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <OpenInNewIcon
+                            className="icon_color"
+                            sx={{ fontSize: 33 }}
+                          />
+                        </a>
+                      </IconButton>
+                    </Tooltip>
+                  </div>
+                </div>
+                {/* code icon */}
+                <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_react.png" alt="js" width="15px" />
+                    <span className="text">React</span>
+                  </div>
+
+                  <div className="code_icons bg-green">
+                    <img
+                      src="images/project_mongodb.png"
+                      alt="css"
+                      width="15px"
+                    />
+                    <span className="text">MongoDB</span>
+                  </div>
+                  {/*  */}
+                </div>
+                {/* ==================== code icon Ends here=======================*/}
+
+                <p className="text_explaination">
+                  A UserList webpage using html, css and React. We can Add user,
+                  Edit user, Delete user (CURD Operations) getting all the datas
+                  from DB.
+                </p>
+              </div>
+              {/*=========== Container Box 5 Ends Here ========= */}
+              {/* =========================================================================================== */}
+            </div>
+            {/* ============================================================================ */}
+
+            {/* ============================================================================ */}
+            {/* Container Box 6 starts Here */}
+            <div className="project-box__container">
+              <div>
+                <img
+                  className="project_image"
+                  src="/images/login.png"
+                  alt="Covid_image"
+                />
+              </div>
+
+              <div className="project-box__content">
+                <div className="project-box__content--box">
+                  <div className="project-box__content--box--title">
+                    <h2>Login</h2>
+                  </div>
+                  <div className="project-box__content--box--icon">
+                    {/* <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} /> */}
+                    <Tooltip title="Open the Link">
+                      <IconButton>
+                        <a
+                          href="https://reverent-babbage-019cc3.netlify.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <OpenInNewIcon
+                            className="icon_color"
+                            sx={{ fontSize: 33 }}
+                          />
+                        </a>
+                      </IconButton>
+                    </Tooltip>
+                  </div>
+                </div>
+                {/* code icon */}
+                <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-orange">
+                    <img
+                      src="images/project_html.png"
+                      alt="html"
+                      width="15px"
+                    />
+                    <span className="text ">Html</span>
+                  </div>
+
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_css.png" alt="css" width="15px" />
+                    <span className="text">Css</span>
+                  </div>
+                </div>
+                {/* ==================== code icon Ends here=======================*/}
+
+                <p className="text_explaination">
+                  This is a Login page UI design using html, Css.
+                </p>
+              </div>
+              {/*=========== Container Box 6 Ends Here ========= */}
+              {/* =========================================================================================== */}
+            </div>
+            {/* ============================================================================ */}
+
+            {/* over */}
           </div>
         </div>
       </div>
