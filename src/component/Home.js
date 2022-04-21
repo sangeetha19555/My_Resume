@@ -41,7 +41,7 @@ export function Home() {
           >
             Contact Me
           </a>
-          <a href="#" className="btn" rel="noopener noreferrer">
+          <a href="#home" className="btn" rel="noopener noreferrer">
             View Resume
           </a>
         </div>

@@ -1,6 +1,6 @@
 import "./App.css";
 import { About } from "./component/About";
-// import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Footer } from "./component/Footer";
 import { Header } from "./component/Header";
 import { Home } from "./component/Home";
@@ -9,26 +9,26 @@ import { SkillPage } from "./component/SkillPage";
 import "./component/skill_style.css";
 
 function App() {
-  // const [loading, setLoading] = useState(false);
-  // useEffect(() => {
-  //   setLoading(true);
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 9000);
-  // }, []);
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 9000);
+  }, []);
   return (
     <div className="App">
-      {/* {loading ? (
+      {loading ? (
         <Loader />
       ) : (
         <div>
           <HomePage /> <SkillPage /> <Project />
           <Footer />
         </div>
-      )} */}
-      <HomePage /> <SkillPage /> <Project />
+      )}
+      {/* <HomePage /> <SkillPage /> <Project />
       <About />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
@@ -44,10 +44,10 @@ function HomePage() {
   );
 }
 // ========= Loader ===========
-// function Loader() {
-//   return (
-//     <div className="loader-container">
-//       <img src="images/loader.gif" alt="loader" width="300px" />
-//     </div>
-//   );
-// }
+function Loader() {
+  return (
+    <div className="loader-container">
+      <img src="images/loader.gif" alt="loader" width="300px" />
+    </div>
+  );
+}
