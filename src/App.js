@@ -1,4 +1,5 @@
 import "./App.css";
+import { About } from "./component/About";
 // import React, { useState, useEffect } from "react";
 import { Footer } from "./component/Footer";
 import { Header } from "./component/Header";
@@ -26,6 +27,7 @@ function App() {
         </div>
       )} */}
       <HomePage /> <SkillPage /> <Project />
+      <About />
       <Footer />
     </div>
   );

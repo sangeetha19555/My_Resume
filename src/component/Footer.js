@@ -26,14 +26,14 @@ export function Footer() {
             <li>
               <div className="footer_icon_container">
                 <a
-                  href="https://github.com/Sangeetha19057"
+                  href="https://github.com/Sangeetha"
                   className="footer_icon_box"
                 >
                   <i className="fa fa-github" aria-hidden="true"></i>
                 </a>
                 <p className="footer_icon_box--text">
                   <a
-                    href="https://github.com/Sangeetha19057"
+                    href="https://github.com/Sangeetha"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

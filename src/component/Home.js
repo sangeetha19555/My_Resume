@@ -41,12 +41,7 @@ export function Home() {
           >
             Contact Me
           </a>
-          <a
-            href="https://drive.google.com/file/d/1QnYXIcL4JmuUTnpFTJqVjLYMcARLfivy/view"
-            target="_blank"
-            className="btn"
-            rel="noopener noreferrer"
-          >
+          <a href="#" className="btn" rel="noopener noreferrer">
             View Resume
           </a>
         </div>
@@ -55,7 +50,7 @@ export function Home() {
           <ul className="sci">
             <li>
               <a
-                href="https://github.com/Sangeetha19057"
+                href="https://github.com/Sangeetha"
                 target="_blank"
                 rel="noopener noreferrer"
               >
