@@ -41,7 +41,12 @@ export function Home() {
           >
             Contact Me
           </a>
-          <a href="#home" className="btn" rel="noopener noreferrer">
+          <a
+            href="https://drive.google.com/file/d/1MQT8TpQURvKcAW-mcwFdfgV1ln_9Rt2Z/view?usp=sharing"
+            target="_blank"
+            className="btn"
+            rel="noopener noreferrer"
+          >
             View Resume
           </a>
         </div>
