@@ -358,6 +358,14 @@ export default function Project() {
                 </div>
                 {/* code icon */}
                 <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-orange">
+                    <img
+                      src="images/project_html.png"
+                      alt="html"
+                      width="15px"
+                    />
+                    <span className="text ">Html</span>
+                  </div>
                   <div className="code_icons bg-blue">
                     <img src="images/project_react.png" alt="js" width="15px" />
                     <span className="text">React</span>
@@ -400,7 +408,7 @@ export default function Project() {
               <div className="project-box__content">
                 <div className="project-box__content--box">
                   <div className="project-box__content--box--title">
-                    <h2>Login</h2>
+                    <h2>Login Page</h2>
                   </div>
                   <div className="project-box__content--box--icon">
                     {/* <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} /> */}
@@ -439,7 +447,7 @@ export default function Project() {
                 {/* ==================== code icon Ends here=======================*/}
 
                 <p className="text_explaination">
-                  This is a Login page UI design using html, Css.
+                  This is a Login page UI design using html and Css.
                 </p>
               </div>
               {/*=========== Container Box 6 Ends Here ========= */}
@@ -447,6 +455,77 @@ export default function Project() {
             </div>
             {/* ============================================================================ */}
 
+            {/* ============================================================================ */}
+            {/* Container Box 6 starts Here */}
+            <div className="project-box__container">
+              <div>
+                <img
+                  className="project_image"
+                  src="/images/kitchen-recipe.png"
+                  alt="Covid_image"
+                />
+              </div>
+
+              <div className="project-box__content">
+                <div className="project-box__content--box">
+                  <div className="project-box__content--box--title">
+                    <h2>kitchen recipe Management</h2>
+                  </div>
+                  <div className="project-box__content--box--icon">
+                    {/* <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} /> */}
+                    <Tooltip title="Open the Link">
+                      <IconButton>
+                        <a
+                          href="https://kitchen-recpie-management.netlify.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <OpenInNewIcon
+                            className="icon_color"
+                            sx={{ fontSize: 33 }}
+                          />
+                        </a>
+                      </IconButton>
+                    </Tooltip>
+                  </div>
+                </div>
+                {/* code icon */}
+                <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-orange">
+                    <img
+                      src="images/project_html.png"
+                      alt="html"
+                      width="15px"
+                    />
+                    <span className="text ">Html</span>
+                  </div>
+
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_react.png" alt="js" width="15px" />
+                    <span className="text">React</span>
+                  </div>
+
+                  <div className="code_icons bg-green">
+                    <img
+                      src="images/project_mongodb.png"
+                      alt="css"
+                      width="15px"
+                    />
+                    <span className="text">MongoDB</span>
+                  </div>
+                </div>
+                {/* ==================== code icon Ends here=======================*/}
+
+                <p className="text_explaination">
+                  kitchen recipe website using html, Css, Nodejs and MongoDB.
+                  Login to Add favorite food here you can search recipes amd
+                  enjoy you food.
+                </p>
+              </div>
+              {/*=========== Container Box 6 Ends Here ========= */}
+              {/* =========================================================================================== */}
+            </div>
+            {/* ============================================================================ */}
             {/* over */}
           </div>
         </div>
