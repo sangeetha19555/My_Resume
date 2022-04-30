@@ -518,7 +518,7 @@ export default function Project() {
 
                 <p className="text_explaination">
                   kitchen recipe website using html, Css, Nodejs and MongoDB.
-                  Login to Add favorite food here you can search recipes amd
+                  Login to Add favorite food here you can search recipes and
                   enjoy you food.
                 </p>
               </div>
