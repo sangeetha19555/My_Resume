@@ -55,7 +55,7 @@ export function Home() {
           <ul className="sci">
             <li>
               <a
-                href="https://github.com/Sangeetha"
+                href="https://github.com/jadore-coder"
                 target="_blank"
                 rel="noopener noreferrer"
               >

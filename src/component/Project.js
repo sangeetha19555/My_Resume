@@ -9,15 +9,12 @@ import Tooltip from "@mui/material/Tooltip";
 export default function Project() {
   return (
     <div>
-      <div id="project">
+      <div id="project" style={{ marginTop: "40px" }}>
         <div className="project-container">
-          {/* project__titile */}
-          {/* <img
-            src="https://cutewallpaper.org/21/loading-animated-gif-transparent-background/Twilight-on-the-olympic-peninsula.gif"
-            alt="loader"
-            width="300px"
-          /> */}
-          <div className="project-container-title">
+          <div
+            className="project-container-title"
+            style={{ marginBottom: "80px" }}
+          >
             <div className="title">
               <h2 className="titleText">
                 <span>P</span>roject
@@ -25,8 +22,6 @@ export default function Project() {
             </div>
 
             <p>
-              {/* I love building projects and practice my Program skills, here's an
-            archive of things that I've worked on. */}
               I love building projects and practice my Program skills, <br />
               here's some of the project that I've worked on.
             </p>

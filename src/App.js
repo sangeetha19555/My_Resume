@@ -7,6 +7,7 @@ import { Home } from "./component/Home";
 import Project from "./component/Project";
 import { SkillPage } from "./component/SkillPage";
 import "./component/skill_style.css";
+import { About } from "./component/About";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -23,6 +24,7 @@ function App() {
       ) : (
         <div>
           <HomePage /> <SkillPage /> <Project />
+          <About />
           <Footer />
         </div>
       )}

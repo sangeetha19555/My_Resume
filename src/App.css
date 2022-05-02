@@ -633,6 +633,18 @@ header {
     font-size: 13px;
     padding: 10px 10px;
   }
+  .navbar ul li a {
+    font-size: 0.6em;
+  }
+  .logo_text-1 {
+    font-size: 25px;
+  }
+  .logo_text-2 {
+    font-size: 25px;
+  }
+  .logo h3 {
+    font-size: 21px;
+  }
 }
 
 @media (max-width: 300px) {
