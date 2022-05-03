@@ -39,7 +39,7 @@ export function Home() {
             className="btn-contact"
             rel="noopener noreferrer"
           >
-            Contact
+            Contact Me
           </a>
 
           <a
@@ -56,7 +56,7 @@ export function Home() {
           <ul className="sci">
             <li>
               <a
-                href="https://github.com/sangeetha"
+                href="https://github.com/jadore-coder"
                 target="_blank"
                 rel="noopener noreferrer"
               >
