@@ -26,7 +26,7 @@ export function Footer() {
             <li>
               <div className="footer_icon_container">
                 <a
-                  href="https://github.com/jadore-coder"
+                  href="https://github.com/sangeetha"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer_icon_box"
@@ -35,7 +35,7 @@ export function Footer() {
                 </a>
                 <p className="footer_icon_box--text">
                   <a
-                    href="https://github.com/jadore-coder"
+                    href="https://github.com/sangeetha"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
