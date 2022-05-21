@@ -368,6 +368,12 @@ header {
   .header-footer-icons {
     flex-direction: column;
   }
+  .sci .fa {
+    font-size: 25px;
+  }
+  .copyrightText {
+    font-size: 13px;
+  }
 }
 /* styles for profile pics starts here */
 
@@ -626,11 +632,11 @@ header {
     left: 42%;
   }
   .btn {
-    font-size: 13px;
+    font-size: 12px;
     padding: 10px 10px;
   }
   .btn-contact {
-    font-size: 13px;
+    font-size: 12px;
     padding: 10px 10px;
   }
   .navbar ul li a {
