@@ -43,7 +43,7 @@ export function Home() {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1MQT8TpQURvKcAW-mcwFdfgV1ln_9Rt2Z/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iMgjjiCj0jt6QvyGsYvCKhGxag7fRnZZ/view?usp=sharing"
             target="_blank"
             className="btn"
             rel="noopener noreferrer"
