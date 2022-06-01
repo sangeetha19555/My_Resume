@@ -13,11 +13,7 @@ export function Home() {
             <img src="/images/bootstrap.png" alt="bootstrap" />
             <img src="/images/MongoDBicon.png" alt="MongoDB" />
           </div>
-          <img
-            className="email-icon profile"
-            src="/images/Profile.jpeg"
-            alt="profile"
-          />
+          <img className="email-icon profile" src="/images/Profile.jpeg" />
         </div>
         <div className="profile-content">
           <h2>
@@ -56,7 +52,7 @@ export function Home() {
           <ul className="sci">
             <li>
               <a
-                href="https://github.com/jadore-coder"
+                href="https://github.com/Sangeetha1905"
                 target="_blank"
                 rel="noopener noreferrer"
               >

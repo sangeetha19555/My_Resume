@@ -6,7 +6,6 @@ export function Footer() {
       <div className="footer-container" id="contact_us">
         <div className="">
           <img
-            // src="https://freepikpsd.com/file/2019/10/contact-us-icon-png-7-Transparent-Images.png"
             src="https://yethi.in/wp-content/uploads/2019/10/vector-contact-banner.png"
             alt="contact us"
             className="footer-container_image"
@@ -26,7 +25,7 @@ export function Footer() {
             <li>
               <div className="footer_icon_container">
                 <a
-                  href="https://github.com/jadore-coder"
+                  href="https://github.com/Sangeetha1905"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer_icon_box"

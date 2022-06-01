@@ -4,6 +4,7 @@ import "./Project.css";
 
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import IconButton from "@mui/material/IconButton";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import Tooltip from "@mui/material/Tooltip";
 
 export default function Project() {
@@ -28,8 +29,6 @@ export default function Project() {
           </div>
           {/* ======= project__titile Ends Here========= */}
 
-          {/* <img src="/images/girl.png" alt="girl_image" width="700px" /> */}
-
           {/* content Starts Here*/}
           <div className="project-box">
             {/* Container Box 1 starts Here */}
@@ -48,13 +47,14 @@ export default function Project() {
                     <h2>Anime</h2>
                   </div>
                   <div className="project-box__content--box--icon">
-                    {/* <a
-                    href="https://github.com/Sangeetha19057/Anime_API_Task"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
-                  </a> */}
+                    <a
+                      href="https://github.com/Sangeetha1905/Anime_API_TASK"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
+
                     <Tooltip title="Open the Link">
                       <IconButton>
                         <a
@@ -124,7 +124,13 @@ export default function Project() {
                     <h2>Calculator</h2>
                   </div>
                   <div className="project-box__content--box--icon">
-                    {/* <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} /> */}
+                    <a
+                      href="https://github.com/Sangeetha1905/Calculator-Task"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
                     <Tooltip title="Open the Link">
                       <IconButton>
                         <a
@@ -193,7 +199,13 @@ export default function Project() {
                     <h2>COVID Live Update</h2>
                   </div>
                   <div className="project-box__content--box--icon">
-                    {/* <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} /> */}
+                    <a
+                      href="https://github.com/Sangeetha1905/LIVE-Updates-Covid-19"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
 
                     <Tooltip title="Open the Link">
                       <IconButton>
@@ -264,7 +276,13 @@ export default function Project() {
                     <h2>Thirukkural</h2>
                   </div>
                   <div className="project-box__content--box--icon">
-                    {/* <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} /> */}
+                    <a
+                      href="https://github.com/Sangeetha1905/Thirukkural-API"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
                     <Tooltip title="Open the Link">
                       <IconButton>
                         <a
@@ -334,7 +352,13 @@ export default function Project() {
                     <h2>UserList</h2>
                   </div>
                   <div className="project-box__content--box--icon">
-                    {/* <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} /> */}
+                    <a
+                      href="https://github.com/Sangeetha1905/react_user_crud"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
                     <Tooltip title="Open the Link">
                       <IconButton>
                         <a
@@ -353,13 +377,13 @@ export default function Project() {
                 </div>
                 {/* code icon */}
                 <div className="project-box__content--code_icons">
-                  <div className="code_icons bg-orange">
+                  <div className="code_icons bg-green">
                     <img
-                      src="images/project_html.png"
+                      src="images/nodejs_icon.webp"
                       alt="html"
                       width="15px"
                     />
-                    <span className="text ">Html</span>
+                    <span className="text ">nodejs</span>
                   </div>
                   <div className="code_icons bg-blue">
                     <img src="images/project_react.png" alt="js" width="15px" />
@@ -406,7 +430,13 @@ export default function Project() {
                     <h2>kitchen recipe Management</h2>
                   </div>
                   <div className="project-box__content--box--icon">
-                    {/* <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} /> */}
+                    <a
+                      href="https://github.com/Sangeetha1905/Kitchen-Recipe-Management"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
                     <Tooltip title="Open the Link">
                       <IconButton>
                         <a
@@ -425,13 +455,13 @@ export default function Project() {
                 </div>
                 {/* code icon */}
                 <div className="project-box__content--code_icons">
-                  <div className="code_icons bg-orange">
+                  <div className="code_icons bg-green">
                     <img
-                      src="images/project_html.png"
+                      src="images/nodejs_icon.webp"
                       alt="html"
                       width="15px"
                     />
-                    <span className="text ">Html</span>
+                    <span className="text ">nodejs</span>
                   </div>
 
                   <div className="code_icons bg-blue">
@@ -457,6 +487,161 @@ export default function Project() {
                 </p>
               </div>
               {/*=========== Container Box 6 Ends Here ========= */}
+              {/* =========================================================================================== */}
+            </div>
+            {/* ============================================================================ */}
+
+            {/* ============================================================================ */}
+            {/* Container Box 7 starts Here */}
+            <div className="project-box__container">
+              <div>
+                <img
+                  className="project_image"
+                  src="/images/resume builder.png"
+                  alt="Covid_image"
+                />
+              </div>
+
+              <div className="project-box__content">
+                <div className="project-box__content--box">
+                  <div className="project-box__content--box--title">
+                    <h2>Resume Builder</h2>
+                  </div>
+                  <div className="project-box__content--box--icon">
+                    <a
+                      href="https://github.com/Sangeetha1905/resume-builder-frontend"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
+                    <Tooltip title="Open the Link">
+                      <IconButton>
+                        <a
+                          href="https://resume-builder-220509-4dw.netlify.app/mainpage"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <OpenInNewIcon
+                            className="icon_color"
+                            sx={{ fontSize: 33 }}
+                          />
+                        </a>
+                      </IconButton>
+                    </Tooltip>
+                  </div>
+                </div>
+                {/* code icon */}
+                <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-green">
+                    <img
+                      src="images/nodejs_icon.webp"
+                      alt="html"
+                      width="15px"
+                    />
+                    <span className="text ">nodejs</span>
+                  </div>
+
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_react.png" alt="js" width="15px" />
+                    <span className="text">React</span>
+                  </div>
+
+                  <div className="code_icons bg-green">
+                    <img
+                      src="images/project_mongodb.png"
+                      alt="css"
+                      width="15px"
+                    />
+                    <span className="text">MongoDB</span>
+                  </div>
+                </div>
+                {/* ==================== code icon Ends here=======================*/}
+
+                <p className="text_explaination">
+                  This is a resume builder website using react, Nodejs and
+                  MongoDB. Login to create your resume then select the template
+                  and download your resume.
+                </p>
+              </div>
+              {/*=========== Container Box 7 Ends Here ========= */}
+              {/* =========================================================================================== */}
+            </div>
+            {/* ============================================================================ */}
+
+            {/* ============================================================================ */}
+            {/* Container Box 8 starts Here */}
+            <div className="project-box__container">
+              <div>
+                <img
+                  className="project_image"
+                  src="/images/shopping_cart1.png"
+                  alt="Covid_image"
+                />
+              </div>
+
+              <div className="project-box__content">
+                <div className="project-box__content--box">
+                  <div className="project-box__content--box--title">
+                    <h2>Shopping Cart website</h2>
+                  </div>
+                  <div className="project-box__content--box--icon">
+                    <a
+                      href="https://github.com/Sangeetha1905/shopping-cart"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
+                    <Tooltip title="Open the Link">
+                      <IconButton>
+                        <a
+                          href="https://shopping-cart-220527.netlify.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <OpenInNewIcon
+                            className="icon_color"
+                            sx={{ fontSize: 33 }}
+                          />
+                        </a>
+                      </IconButton>
+                    </Tooltip>
+                  </div>
+                </div>
+                {/* code icon */}
+                <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-violet">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
+                      alt="bootstrap"
+                      width="19px"
+                    />
+                    <span className="text ">bootstrap</span>
+                  </div>
+
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_react.png" alt="js" width="15px" />
+                    <span className="text">React</span>
+                  </div>
+
+                  <div className="code_icons bg-green">
+                    <img
+                      src="images/project_mongodb.png"
+                      alt="css"
+                      width="15px"
+                    />
+                    <span className="text">MongoDB</span>
+                  </div>
+                </div>
+                {/* ==================== code icon Ends here=======================*/}
+
+                <p className="text_explaination">
+                  This a shopping cart website using html css , bootstrap and
+                  JavaScript.
+                </p>
+              </div>
+              {/*=========== Container Box 8 Ends Here ========= */}
               {/* =========================================================================================== */}
             </div>
             {/* ============================================================================ */}
