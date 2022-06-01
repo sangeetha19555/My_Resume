@@ -13,7 +13,11 @@ export function Home() {
             <img src="/images/bootstrap.png" alt="bootstrap" />
             <img src="/images/MongoDBicon.png" alt="MongoDB" />
           </div>
-          <img className="email-icon profile" src="/images/Profile.jpeg" />
+          <img
+            className="email-icon profile"
+            src="/images/Profile.jpeg"
+            alt="email"
+          />
         </div>
         <div className="profile-content">
           <h2>
