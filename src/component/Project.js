@@ -518,7 +518,7 @@ export default function Project() {
                     <Tooltip title="Open the Link">
                       <IconButton>
                         <a
-                          href="https://resume-builder-220509-4dw.netlify.app/mainpage"
+                          href="https://resume-builder-220509-4dw.netlify.app/#/mainpage"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -583,7 +583,7 @@ export default function Project() {
               <div className="project-box__content">
                 <div className="project-box__content--box">
                   <div className="project-box__content--box--title">
-                    <h2>Shopping Cart website</h2>
+                    <h2>Shopping Cart</h2>
                   </div>
                   <div className="project-box__content--box--icon">
                     <a
