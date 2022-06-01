@@ -380,7 +380,7 @@ export default function Project() {
                   <div className="code_icons bg-green">
                     <img
                       src="images/nodejs_icon.webp"
-                      alt="html"
+                      alt="nodejs"
                       width="15px"
                     />
                     <span className="text ">nodejs</span>
@@ -620,18 +620,18 @@ export default function Project() {
                     <span className="text ">bootstrap</span>
                   </div>
 
-                  <div className="code_icons bg-blue">
-                    <img src="images/project_react.png" alt="js" width="15px" />
-                    <span className="text">React</span>
-                  </div>
-
-                  <div className="code_icons bg-green">
+                  <div className="code_icons bg-orange">
                     <img
-                      src="images/project_mongodb.png"
-                      alt="css"
+                      src="images/project_html.png"
+                      alt="html"
                       width="15px"
                     />
-                    <span className="text">MongoDB</span>
+                    <span className="text ">Html</span>
+                  </div>
+
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_css.png" alt="css" width="15px" />
+                    <span className="text">Css</span>
                   </div>
                 </div>
                 {/* ==================== code icon Ends here=======================*/}
