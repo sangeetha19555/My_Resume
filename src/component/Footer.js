@@ -34,7 +34,7 @@ export function Footer() {
                 </a>
                 <p className="footer_icon_box--text">
                   <a
-                    href="https://github.com/jadore-coder"
+                    href="https://github.com/Sangeetha1905"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
