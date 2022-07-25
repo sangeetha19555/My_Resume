@@ -48,7 +48,7 @@ export default function Project() {
                   </div>
                   <div className="project-box__content--box--icon">
                     <a
-                      href="https://github.com/Sangeetha1905/Anime_API_TASK"
+                      href="https://github.com/Sangeetha19057/Anime_API_Task"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -125,7 +125,7 @@ export default function Project() {
                   </div>
                   <div className="project-box__content--box--icon">
                     <a
-                      href="https://github.com/Sangeetha1905/Calculator-Task"
+                      href="https://github.com/Sangeetha19057/Calculator-Task"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -200,7 +200,7 @@ export default function Project() {
                   </div>
                   <div className="project-box__content--box--icon">
                     <a
-                      href="https://github.com/Sangeetha1905/LIVE-Updates-Covid-19"
+                      href="https://github.com/Sangeetha19057/LIVE-updates-COVID-19"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -509,7 +509,7 @@ export default function Project() {
                   </div>
                   <div className="project-box__content--box--icon">
                     <a
-                      href="https://github.com/Sangeetha1905/resume-builder-frontend"
+                      href="https://github.com/Sangeetha19057/My_Resume"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -587,7 +587,7 @@ export default function Project() {
                   </div>
                   <div className="project-box__content--box--icon">
                     <a
-                      href="https://github.com/Sangeetha1905/shopping-cart"
+                      href="https://github.com/Sangeetha19057/shopping_cart"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -613,7 +613,7 @@ export default function Project() {
                 <div className="project-box__content--code_icons">
                   <div className="code_icons bg-violet">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
+                      src="images/Bootstrap_logo.png"
                       alt="bootstrap"
                       width="19px"
                     />
@@ -639,6 +639,150 @@ export default function Project() {
                 <p className="text_explaination">
                   This a shopping cart website using html css , bootstrap and
                   JavaScript.
+                </p>
+              </div>
+              {/*=========== Container Box 8 Ends Here ========= */}
+              {/* =========================================================================================== */}
+            </div>
+            {/* ============================================================================ */}
+
+            {/* Container Box 8 starts Here */}
+            <div className="project-box__container">
+              <div>
+                <img
+                  className="project_image"
+                  src="/images/mr_and_mrs.png"
+                  alt="Covid_image"
+                />
+              </div>
+
+              <div className="project-box__content">
+                <div className="project-box__content--box">
+                  <div className="project-box__content--box--title">
+                    <h2>Event Planner</h2>
+                  </div>
+                  <div className="project-box__content--box--icon">
+                    <a
+                      href="https://github.com/Sangeetha19057/event_planner"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
+                    <Tooltip title="Open the Link">
+                      <IconButton>
+                        <a
+                          href="https://mr-and-mrs-event-planner220706.netlify.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <OpenInNewIcon
+                            className="icon_color"
+                            sx={{ fontSize: 33 }}
+                          />
+                        </a>
+                      </IconButton>
+                    </Tooltip>
+                  </div>
+                </div>
+                {/* code icon */}
+                <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_react.png" alt="js" width="15px" />
+                    <span className="text">React</span>
+                  </div>
+                  <div className="code_icons bg-yellow">
+                    <img
+                      src="images/project_JavaScript.png"
+                      alt="js"
+                      width="15px"
+                    />
+                    <span className="text">Javascript</span>
+                  </div>
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_css.png" alt="css" width="15px" />
+                    <span className="text">Css</span>
+                  </div>
+                </div>
+                {/* ==================== code icon Ends here=======================*/}
+
+                <p className="text_explaination">
+                  This a Event Planner website using react, html, css and
+                  JavaScript.
+                </p>
+              </div>
+              {/*=========== Container Box 8 Ends Here ========= */}
+              {/* =========================================================================================== */}
+            </div>
+            {/* ============================================================================ */}
+
+            {/* Container Box 8 starts Here */}
+            <div className="project-box__container">
+              <div>
+                <img
+                  className="project_image"
+                  src="/images/wedding.png"
+                  alt="Covid_image"
+                />
+              </div>
+
+              <div className="project-box__content">
+                <div className="project-box__content--box">
+                  <div className="project-box__content--box--title">
+                    <h2>Wedding Site</h2>
+                  </div>
+                  <div className="project-box__content--box--icon">
+                    <a
+                      href="https://github.com/Sangeetha19057/wedding_website"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
+                    <Tooltip title="Open the Link">
+                      <IconButton>
+                        <a
+                          href="https://kumaresan-weds-jaya.netlify.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <OpenInNewIcon
+                            className="icon_color"
+                            sx={{ fontSize: 33 }}
+                          />
+                        </a>
+                      </IconButton>
+                    </Tooltip>
+                  </div>
+                </div>
+                {/* code icon */}
+                <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-yellow">
+                    <img
+                      src="images/project_JavaScript.png"
+                      alt="js"
+                      width="15px"
+                    />
+                    <span className="text">Javascript</span>
+                  </div>
+                  <div className="code_icons bg-orange">
+                    <img
+                      src="images/project_html.png"
+                      alt="html"
+                      width="15px"
+                    />
+                    <span className="text ">Html</span>
+                  </div>
+
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_css.png" alt="css" width="15px" />
+                    <span className="text">Css</span>
+                  </div>
+                </div>
+                {/* ==================== code icon Ends here=======================*/}
+
+                <p className="text_explaination">
+                  This a wedding website using html, css and JavaScript.
                 </p>
               </div>
               {/*=========== Container Box 8 Ends Here ========= */}
