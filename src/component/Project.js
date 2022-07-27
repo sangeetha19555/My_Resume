@@ -48,7 +48,7 @@ export default function Project() {
                   </div>
                   <div className="project-box__content--box--icon">
                     <a
-                      href="https://github.com/Sangeetha19057/Anime_API_Task"
+                      href="https://github.com/Sangeetha1905/Anime-App"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -125,7 +125,7 @@ export default function Project() {
                   </div>
                   <div className="project-box__content--box--icon">
                     <a
-                      href="https://github.com/Sangeetha19057/Calculator-Task"
+                      href="https://github.com/Sangeetha1905/Calculator-Task"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -200,7 +200,7 @@ export default function Project() {
                   </div>
                   <div className="project-box__content--box--icon">
                     <a
-                      href="https://github.com/Sangeetha19057/LIVE-updates-COVID-19"
+                      href="https://github.com/Sangeetha1905/Covid-19-API"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -509,7 +509,7 @@ export default function Project() {
                   </div>
                   <div className="project-box__content--box--icon">
                     <a
-                      href="https://github.com/Sangeetha19057/My_Resume"
+                      href="https://github.com/Sangeetha1905/resume-builder-frontend"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -587,7 +587,7 @@ export default function Project() {
                   </div>
                   <div className="project-box__content--box--icon">
                     <a
-                      href="https://github.com/Sangeetha19057/shopping_cart"
+                      href="https://github.com/Sangeetha1905/shopping-cart"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -662,11 +662,7 @@ export default function Project() {
                     <h2>Event Planner</h2>
                   </div>
                   <div className="project-box__content--box--icon">
-                    <a
-                      href="https://github.com/Sangeetha19057/event_planner"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="/" target="_blank" rel="noopener noreferrer">
                       <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
                     </a>
                     <Tooltip title="Open the Link">
@@ -732,11 +728,7 @@ export default function Project() {
                     <h2>Wedding Site</h2>
                   </div>
                   <div className="project-box__content--box--icon">
-                    <a
-                      href="https://github.com/Sangeetha19057/wedding_website"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="/" target="_blank" rel="noopener noreferrer">
                       <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
                     </a>
                     <Tooltip title="Open the Link">
