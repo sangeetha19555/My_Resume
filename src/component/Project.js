@@ -662,9 +662,9 @@ export default function Project() {
                     <h2>Event Planner</h2>
                   </div>
                   <div className="project-box__content--box--icon">
-                    <a href="/" rel="noopener noreferrer">
-                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
-                    </a>
+                    {/* <a href="/" rel="noopener noreferrer"> */}
+                    <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    {/* </a> */}
                     <Tooltip title="Open the Link">
                       <IconButton>
                         <a
@@ -728,9 +728,9 @@ export default function Project() {
                     <h2>Wedding Site</h2>
                   </div>
                   <div className="project-box__content--box--icon">
-                    <a href="/" rel="noopener noreferrer">
-                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
-                    </a>
+                    {/* <a href="/" rel="noopener noreferrer"> */}
+                    <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    {/* </a> */}
                     <Tooltip title="Open the Link">
                       <IconButton>
                         <a
