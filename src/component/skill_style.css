@@ -118,34 +118,41 @@ article {
   background: rgb(230 81 0);
 }
 .bar_container2 .skills:nth-child(1) .percent .progress {
-  background: rgb(153 225 87);
+  background: rgb(206 100 154);
 }
 .bar_container .skills:nth-child(2) .percent .progress {
   background: rgb(60 176 233);
 }
 .bar_container2 .skills:nth-child(2) .percent .progress {
-  background: rgb(206 100 154);
+  background-image: linear-gradient(45deg, #22ffde, #187fd3);
 }
 .bar_container .skills:nth-child(3) .percent .progress {
   background: rgb(178 128 243);
 }
 .bar_container2 .skills:nth-child(3) .percent .progress {
-  background-image: linear-gradient(45deg, #22ffde, #187fd3);
+  background: rgb(153 225 87);
 }
 .bar_container .skills:nth-child(4) .percent .progress {
   background: rgb(254 214 2);
 }
 .bar_container2 .skills:nth-child(4) .percent .progress {
-  background: rgb(153 225 87);
+  background-image: linear-gradient(45deg, #8af7d2, #fa4f83);
 }
 .bar_container .skills:nth-child(5) .percent .progress {
   background-image: linear-gradient(45deg, #22ffde, #187fd3);
 }
 
 .bar_container2 .skills:nth-child(5) .percent .progress {
-  background-image: linear-gradient(45deg, #8af7d2, #fa4f83);
+  background-image: linear-gradient(95deg, #ed8331, #a74ffa, #4fbbfa, #24d810);
 }
 
+.bar_container .skills:nth-child(6) .percent .progress {
+  background: rgb(153 225 87);
+}
+
+.bar_container2 .skills:nth-child(6) .percent .progress {
+  background-image: linear-gradient(195deg, #22ffde, #008d95);
+}
 /* logos styles */
 .language-logos-container {
   display: flex;
@@ -154,7 +161,7 @@ article {
 }
 
 .logo-box {
-  width: 600px;
+  width: 700px;
   display: flex;
   justify-content: center;
   align-items: center;

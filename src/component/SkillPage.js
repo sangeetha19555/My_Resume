@@ -43,6 +43,18 @@ export function SkillPage() {
               <div className="language-logos">
                 <img src="images/skill_github.png" alt="github" />
               </div>
+              <div className="language-logos">
+                <img
+                  src="https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=670&h=670&q=75&fit=max&auto=format"
+                  alt="github"
+                />
+              </div>
+              <div className="language-logos">
+                <img
+                  src="https://res.cloudinary.com/practicaldev/image/fetch/s--762O-5e0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/qy0ctxjhdgvvj6e4ra10.png"
+                  alt="github"
+                />
+              </div>
             </div>
           </div>
 
@@ -95,10 +107,8 @@ export function SkillPage() {
                 <span className="Value">75%</span>
               </div>
               {/* <!-- skill bar ENDS  --> */}
-            </div>
 
-            <div className="bar_container bar_container2">
-              {/* <!-- skill bar starts 1  --> */}
+              {/* <!-- skill bar starts 6  -->  */}
               <div className="skills">
                 <span className="Name">MongoDB</span>
                 <div className="percent">
@@ -106,8 +116,12 @@ export function SkillPage() {
                 </div>
                 <span className="Value">80%</span>
               </div>
-              {/* <!-- skill bar ENDS  -->
-          <!-- skill bar starts 2  --> */}
+              {/* <!-- skill bar ENDS  -->*/}
+            </div>
+            {/* ================================================================================ */}
+            {/* bar_container2 */}
+            <div className="bar_container bar_container2">
+              {/* <!-- skill bar starts 1  -->  */}
               <div className="skills">
                 <span className="Name">Sass</span>
                 <div className="percent">
@@ -116,31 +130,49 @@ export function SkillPage() {
                 <span className="Value">70%</span>
               </div>
               {/* <!-- skill bar ENDS  -->
-          <!-- skill bar starts 3 --> */}
+          <!-- skill bar starts 2 --> */}
               <div className="skills">
                 <span className="Name">material</span>
                 <div className="percent">
-                  <div className="progress" style={{ width: "70%" }}></div>
+                  <div className="progress" style={{ width: "85%" }}></div>
                 </div>
-                <span className="Value">70%</span>
+                <span className="Value">85%</span>
               </div>
               {/* <!-- skill bar ENDS  -->
-          <!-- skill bar starts 4  --> */}
+          <!-- skill bar starts 3  --> */}
               <div className="skills">
                 <span className="Name">nodejs</span>
                 <div className="percent">
-                  <div className="progress" style={{ width: "55%" }}></div>
+                  <div className="progress" style={{ width: "75%" }}></div>
                 </div>
-                <span className="Value">55%</span>
+                <span className="Value">75%</span>
               </div>
               {/* <!-- skill bar ENDS  -->
-          <!-- skill bar starts 5 --> */}
+                {/* <!-- skill bar starts 4 -->  */}
               <div className="skills">
                 <span className="Name">github</span>
                 <div className="percent">
-                  <div className="progress" style={{ width: "60%" }}></div>
+                  <div className="progress" style={{ width: "80%" }}></div>
                 </div>
-                <span className="Value">60%</span>
+                <span className="Value">80%</span>
+              </div>
+              {/* <!-- skill bar ENDS  --> */}
+              {/* <!-- skill bar starts 5  -->  */}
+              <div className="skills">
+                <span className="Name">Figma</span>
+                <div className="percent">
+                  <div className="progress" style={{ width: "75%" }}></div>
+                </div>
+                <span className="Value">75%</span>
+              </div>
+              {/* <!-- skill bar ENDS  -->*/}
+              {/* <!-- skill bar starts 6  --> */}
+              <div className="skills">
+                <span className="Name">Tailwind </span>
+                <div className="percent">
+                  <div className="progress" style={{ width: "80%" }}></div>
+                </div>
+                <span className="Value">80%</span>
               </div>
               {/* <!-- skill bar ENDS  --> */}
             </div>
