@@ -120,9 +120,9 @@
   box-shadow: 0px 1px 7px 1px #f48305;
 }
 .bg-red {
-  color: rgb(251, 254, 255);
-  background-color: rgba(245, 81, 201, 0.33);
-  box-shadow: 0px 1px 7px 1px #fd8ae2;
+  background-color: #8ada6838;
+  box-shadow: 0 1px 7px 1px #acfd8a;
+  color: #fbfeff;
 }
 .bg-blue {
   color: rgb(210, 233, 247);
