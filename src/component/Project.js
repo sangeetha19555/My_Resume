@@ -279,7 +279,7 @@ export default function Project() {
 
                 <p className="text_explaination">
                   This is a Thirukkural webpage. We can search Thirukkural from
-                  1 to 1330 and also it gives an explaination.
+                  1 to 1330 and also it gives an explaination from API.
                 </p>
               </div>
               {/*=========== Container Box 4 Ends Here ========= */}
@@ -315,7 +315,7 @@ export default function Project() {
                     <Tooltip title="Open the Link">
                       <IconButton>
                         <a
-                          href="https://kitchen-recpie-management.netlify.app/"
+                          href="https://kitchen-recipe-management-app.netlify.app/"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -365,8 +365,8 @@ export default function Project() {
 
                 <p className="text_explaination">
                   kitchen recipe website using html, Css, Nodejs and MongoDB.
-                  Login to Add favorite food here you can search recipes and
-                  enjoy you food.
+                  Login to Add favorite food here you can search recipes from
+                  API and enjoy your food.
                 </p>
               </div>
               {/*=========== Container Box 6 Ends Here ========= */}

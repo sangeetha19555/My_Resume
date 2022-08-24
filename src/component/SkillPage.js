@@ -72,27 +72,27 @@ export function SkillPage() {
               <div className="skills">
                 <span className="Name">Bootstrap</span>
                 <div className="percent">
-                  <div className="progress" style={{ width: "70%" }}></div>
+                  <div className="progress" style={{ width: "87%" }}></div>
                 </div>
-                <span className="Value">70%</span>
+                <span className="Value">87%</span>
               </div>
               {/* <!-- skill bar ENDS  -->
           <!-- skill bar starts 4 --> */}
               <div className="skills">
                 <span className="Name">Javascript</span>
                 <div className="percent">
-                  <div className="progress" style={{ width: "70%" }}></div>
+                  <div className="progress" style={{ width: "80%" }}></div>
                 </div>
-                <span className="Value">70%</span>
+                <span className="Value">80%</span>
               </div>
               {/* <!-- skill bar ENDS  -->
           <!-- skill bar starts 5  --> */}
               <div className="skills">
                 <span className="Name">React</span>
                 <div className="percent">
-                  <div className="progress" style={{ width: "60%" }}></div>
+                  <div className="progress" style={{ width: "75%" }}></div>
                 </div>
-                <span className="Value">60%</span>
+                <span className="Value">75%</span>
               </div>
               {/* <!-- skill bar ENDS  --> */}
             </div>
@@ -102,27 +102,27 @@ export function SkillPage() {
               <div className="skills">
                 <span className="Name">MongoDB</span>
                 <div className="percent">
-                  <div className="progress" style={{ width: "50%" }}></div>
+                  <div className="progress" style={{ width: "80%" }}></div>
                 </div>
-                <span className="Value">50%</span>
+                <span className="Value">80%</span>
               </div>
               {/* <!-- skill bar ENDS  -->
           <!-- skill bar starts 2  --> */}
               <div className="skills">
                 <span className="Name">Sass</span>
                 <div className="percent">
-                  <div className="progress" style={{ width: "40%" }}></div>
+                  <div className="progress" style={{ width: "70%" }}></div>
                 </div>
-                <span className="Value">40%</span>
+                <span className="Value">70%</span>
               </div>
               {/* <!-- skill bar ENDS  -->
           <!-- skill bar starts 3 --> */}
               <div className="skills">
                 <span className="Name">material</span>
                 <div className="percent">
-                  <div className="progress" style={{ width: "50%" }}></div>
+                  <div className="progress" style={{ width: "70%" }}></div>
                 </div>
-                <span className="Value">50%</span>
+                <span className="Value">70%</span>
               </div>
               {/* <!-- skill bar ENDS  -->
           <!-- skill bar starts 4  --> */}
