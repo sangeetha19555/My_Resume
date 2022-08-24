@@ -73,6 +73,15 @@ export default function Project() {
                 </div>
                 {/* code icon */}
                 <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-red">
+                    <img
+                      src="https://i.pinimg.com/originals/a1/9b/ca/a19bca516642b96366f9007c3ef3df1a.png"
+                      alt="api"
+                      width="15px"
+                    />
+                    <span className="text">API</span>
+                  </div>
+
                   <div className="code_icons bg-yellow">
                     <img
                       src="images/project_JavaScript.png"
@@ -100,87 +109,12 @@ export default function Project() {
 
                 <p className="text_explaination">
                   This is an Anime webpage using Html, Css and DOM Js. Which
-                  helps to search Anime Info(name, Type of series, Rating . .
-                  ect)
+                  helps to search Anime Info from API(name, Type of series,
+                  Rating . . ect)
                 </p>
               </div>
             </div>
             {/*=========== Container Box 1 Ends Here ========= */}
-            {/* =========================================================================================== */}
-
-            {/* Container Box 2 starts Here */}
-            <div className="project-box__container">
-              <div>
-                <img
-                  className="project_image"
-                  src="/images/calc.png"
-                  alt="Covid_image"
-                />
-              </div>
-
-              <div className="project-box__content">
-                <div className="project-box__content--box">
-                  <div className="project-box__content--box--title">
-                    <h2>Calculator</h2>
-                  </div>
-                  <div className="project-box__content--box--icon">
-                    <a
-                      href="https://github.com/Sangeetha1905/Calculator-Task"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
-                    </a>
-                    <Tooltip title="Open the Link">
-                      <IconButton>
-                        <a
-                          href="https://musing-mayer-fcf3ed.netlify.app/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <OpenInNewIcon
-                            className="icon_color"
-                            sx={{ fontSize: 33 }}
-                          />
-                        </a>
-                      </IconButton>
-                    </Tooltip>
-                  </div>
-                </div>
-                {/* code icon */}
-                <div className="project-box__content--code_icons">
-                  <div className="code_icons bg-yellow">
-                    <img
-                      src="images/project_JavaScript.png"
-                      alt="js"
-                      width="15px"
-                    />
-                    <span className="text">Javascript</span>
-                  </div>
-
-                  <div className="code_icons bg-orange">
-                    <img
-                      src="images/project_html.png"
-                      alt="html"
-                      width="15px"
-                    />
-                    <span className="text ">Html</span>
-                  </div>
-
-                  <div className="code_icons bg-blue">
-                    <img src="images/project_css.png" alt="css" width="15px" />
-                    <span className="text">Css</span>
-                  </div>
-                </div>
-                {/* ==================== code icon Ends here=======================*/}
-
-                <p className="text_explaination">
-                  A simple Calculator webpage using Html, CSS and JavaScript
-                  which can perform all the basic math operations.
-                </p>
-              </div>
-            </div>
-            {/*=========== Container Box 2 Ends Here ========= */}
             {/* =========================================================================================== */}
 
             {/* Container Box 3 starts Here */}
@@ -226,6 +160,15 @@ export default function Project() {
 
                 {/* code icon */}
                 <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-red">
+                    <img
+                      src="https://i.pinimg.com/originals/a1/9b/ca/a19bca516642b96366f9007c3ef3df1a.png"
+                      alt="api"
+                      width="15px"
+                    />
+                    <span className="text">API</span>
+                  </div>
+
                   <div className="code_icons bg-yellow">
                     <img
                       src="images/project_JavaScript.png"
@@ -301,6 +244,14 @@ export default function Project() {
                 </div>
                 {/* code icon */}
                 <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-red">
+                    <img
+                      src="https://i.pinimg.com/originals/a1/9b/ca/a19bca516642b96366f9007c3ef3df1a.png"
+                      alt="api"
+                      width="15px"
+                    />
+                    <span className="text">API</span>
+                  </div>
                   <div className="code_icons bg-yellow">
                     <img
                       src="images/project_JavaScript.png"
@@ -335,82 +286,6 @@ export default function Project() {
               {/* =========================================================================================== */}
             </div>
 
-            {/* ============================================================================ */}
-            {/* Container Box 5 starts Here */}
-            <div className="project-box__container">
-              <div>
-                <img
-                  className="project_image"
-                  src="/images/CRUD.png"
-                  alt="Covid_image"
-                />
-              </div>
-
-              <div className="project-box__content">
-                <div className="project-box__content--box">
-                  <div className="project-box__content--box--title">
-                    <h2>UserList</h2>
-                  </div>
-                  <div className="project-box__content--box--icon">
-                    <a
-                      href="https://github.com/Sangeetha1905/react_user_crud"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
-                    </a>
-                    <Tooltip title="Open the Link">
-                      <IconButton>
-                        <a
-                          href="https://react-user-crud-app.netlify.app/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <OpenInNewIcon
-                            className="icon_color"
-                            sx={{ fontSize: 33 }}
-                          />
-                        </a>
-                      </IconButton>
-                    </Tooltip>
-                  </div>
-                </div>
-                {/* code icon */}
-                <div className="project-box__content--code_icons">
-                  <div className="code_icons bg-green">
-                    <img
-                      src="images/nodejs_icon.webp"
-                      alt="nodejs"
-                      width="15px"
-                    />
-                    <span className="text ">nodejs</span>
-                  </div>
-                  <div className="code_icons bg-blue">
-                    <img src="images/project_react.png" alt="js" width="15px" />
-                    <span className="text">React</span>
-                  </div>
-
-                  <div className="code_icons bg-green">
-                    <img
-                      src="images/project_mongodb.png"
-                      alt="css"
-                      width="15px"
-                    />
-                    <span className="text">MongoDB</span>
-                  </div>
-                  {/*  */}
-                </div>
-                {/* ==================== code icon Ends here=======================*/}
-
-                <p className="text_explaination">
-                  A UserList webpage using html, css and React. We can Add user,
-                  Edit user, Delete user (CURD Operations) getting all the datas
-                  from DB.
-                </p>
-              </div>
-              {/*=========== Container Box 5 Ends Here ========= */}
-              {/* =========================================================================================== */}
-            </div>
             {/* ============================================================================ */}
 
             {/* ============================================================================ */}
@@ -455,6 +330,14 @@ export default function Project() {
                 </div>
                 {/* code icon */}
                 <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-red">
+                    <img
+                      src="https://i.pinimg.com/originals/a1/9b/ca/a19bca516642b96366f9007c3ef3df1a.png"
+                      alt="api"
+                      width="15px"
+                    />
+                    <span className="text">API</span>
+                  </div>
                   <div className="code_icons bg-green">
                     <img
                       src="images/nodejs_icon.webp"
@@ -489,85 +372,6 @@ export default function Project() {
               {/*=========== Container Box 6 Ends Here ========= */}
               {/* =========================================================================================== */}
             </div>
-            {/* ============================================================================ */}
-
-            {/* ============================================================================ */}
-            {/* Container Box 7 starts Here */}
-            <div className="project-box__container">
-              <div>
-                <img
-                  className="project_image"
-                  src="/images/resume builder.png"
-                  alt="Covid_image"
-                />
-              </div>
-
-              <div className="project-box__content">
-                <div className="project-box__content--box">
-                  <div className="project-box__content--box--title">
-                    <h2>Resume Builder</h2>
-                  </div>
-                  <div className="project-box__content--box--icon">
-                    <a
-                      href="https://github.com/Sangeetha1905/resume-builder-frontend"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
-                    </a>
-                    <Tooltip title="Open the Link">
-                      <IconButton>
-                        <a
-                          href="https://resume-builder-220509-4dw.netlify.app/#/mainpage"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <OpenInNewIcon
-                            className="icon_color"
-                            sx={{ fontSize: 33 }}
-                          />
-                        </a>
-                      </IconButton>
-                    </Tooltip>
-                  </div>
-                </div>
-                {/* code icon */}
-                <div className="project-box__content--code_icons">
-                  <div className="code_icons bg-green">
-                    <img
-                      src="images/nodejs_icon.webp"
-                      alt="html"
-                      width="15px"
-                    />
-                    <span className="text ">nodejs</span>
-                  </div>
-
-                  <div className="code_icons bg-blue">
-                    <img src="images/project_react.png" alt="js" width="15px" />
-                    <span className="text">React</span>
-                  </div>
-
-                  <div className="code_icons bg-green">
-                    <img
-                      src="images/project_mongodb.png"
-                      alt="css"
-                      width="15px"
-                    />
-                    <span className="text">MongoDB</span>
-                  </div>
-                </div>
-                {/* ==================== code icon Ends here=======================*/}
-
-                <p className="text_explaination">
-                  This is a resume builder website using react, Nodejs and
-                  MongoDB. Login to create your resume then select the template
-                  and download your resume.
-                </p>
-              </div>
-              {/*=========== Container Box 7 Ends Here ========= */}
-              {/* =========================================================================================== */}
-            </div>
-            {/* ============================================================================ */}
 
             {/* ============================================================================ */}
             {/* Container Box 8 starts Here */}
@@ -712,8 +516,234 @@ export default function Project() {
             </div>
             {/* ============================================================================ */}
 
-            {/* Container Box 8 starts Here */}
+            {/* ============================================================================ */}
+            {/* Container Box 7 starts Here */}
             <div className="project-box__container">
+              <div>
+                <img
+                  className="project_image"
+                  src="/images/resume builder.png"
+                  alt="Covid_image"
+                />
+              </div>
+
+              <div className="project-box__content">
+                <div className="project-box__content--box">
+                  <div className="project-box__content--box--title">
+                    <h2>Resume Builder</h2>
+                  </div>
+                  <div className="project-box__content--box--icon">
+                    <a
+                      href="https://github.com/Sangeetha1905/resume-builder-frontend"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
+                    <Tooltip title="Open the Link">
+                      <IconButton>
+                        <a
+                          href="https://resume-builder-220509-4dw.netlify.app/#/mainpage"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <OpenInNewIcon
+                            className="icon_color"
+                            sx={{ fontSize: 33 }}
+                          />
+                        </a>
+                      </IconButton>
+                    </Tooltip>
+                  </div>
+                </div>
+                {/* code icon */}
+                <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-green">
+                    <img
+                      src="images/nodejs_icon.webp"
+                      alt="html"
+                      width="15px"
+                    />
+                    <span className="text ">nodejs</span>
+                  </div>
+
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_react.png" alt="js" width="15px" />
+                    <span className="text">React</span>
+                  </div>
+
+                  <div className="code_icons bg-green">
+                    <img
+                      src="images/project_mongodb.png"
+                      alt="css"
+                      width="15px"
+                    />
+                    <span className="text">MongoDB</span>
+                  </div>
+                </div>
+                {/* ==================== code icon Ends here=======================*/}
+
+                <p className="text_explaination">
+                  This is a resume builder website using react, Nodejs and
+                  MongoDB. Login to create your resume then select the template
+                  and download your resume.
+                </p>
+              </div>
+              {/*=========== Container Box 7 Ends Here ========= */}
+              {/* =========================================================================================== */}
+            </div>
+            {/* ============================================================================ */}
+            {/* ============================================================================ */}
+
+            {/* Container Box 5 starts Here */}
+            <div className="project-box__container">
+              <div>
+                <img
+                  className="project_image"
+                  src="/images/CRUD.png"
+                  alt="Covid_image"
+                />
+              </div>
+
+              <div className="project-box__content">
+                <div className="project-box__content--box">
+                  <div className="project-box__content--box--title">
+                    <h2>UserList</h2>
+                  </div>
+                  <div className="project-box__content--box--icon">
+                    <a
+                      href="https://github.com/Sangeetha1905/react_user_crud"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
+                    <Tooltip title="Open the Link">
+                      <IconButton>
+                        <a
+                          href="https://react-user-crud-app.netlify.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <OpenInNewIcon
+                            className="icon_color"
+                            sx={{ fontSize: 33 }}
+                          />
+                        </a>
+                      </IconButton>
+                    </Tooltip>
+                  </div>
+                </div>
+                {/* code icon */}
+                <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-green">
+                    <img
+                      src="images/nodejs_icon.webp"
+                      alt="nodejs"
+                      width="15px"
+                    />
+                    <span className="text ">nodejs</span>
+                  </div>
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_react.png" alt="js" width="15px" />
+                    <span className="text">React</span>
+                  </div>
+
+                  <div className="code_icons bg-green">
+                    <img
+                      src="images/project_mongodb.png"
+                      alt="css"
+                      width="15px"
+                    />
+                    <span className="text">MongoDB</span>
+                  </div>
+                  {/*  */}
+                </div>
+                {/* ==================== code icon Ends here=======================*/}
+
+                <p className="text_explaination">
+                  A UserList webpage using html, css and React. We can Add user,
+                  Edit user, Delete user (CURD Operations) getting all the datas
+                  from DB.
+                </p>
+              </div>
+              {/*=========== Container Box 5 Ends Here ========= */}
+              {/* =========================================================================================== */}
+            </div>
+            {/* ============================================================================ */}
+
+            {/* Container Box 2 starts Here */}
+            {/* <div className="project-box__container">
+              <div>
+                <img
+                  className="project_image"
+                  src="/images/calc.png"
+                  alt="Covid_image"
+                />
+              </div>
+              <div className="project-box__content">
+                <div className="project-box__content--box">
+                  <div className="project-box__content--box--title">
+                    <h2>Calculator</h2>
+                  </div>
+                  <div className="project-box__content--box--icon">
+                    <a
+                      href="https://github.com/Sangeetha1905/Calculator-Task"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
+                    </a>
+                    <Tooltip title="Open the Link">
+                      <IconButton>
+                        <a
+                          href="https://musing-mayer-fcf3ed.netlify.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <OpenInNewIcon
+                            className="icon_color"
+                            sx={{ fontSize: 33 }}
+                          />
+                        </a>
+                      </IconButton>
+                    </Tooltip>
+                  </div>
+                </div>
+                <div className="project-box__content--code_icons">
+                  <div className="code_icons bg-yellow">
+                    <img
+                      src="images/project_JavaScript.png"
+                      alt="js"
+                      width="15px"
+                    />
+                    <span className="text">Javascript</span>
+                  </div>
+
+                  <div className="code_icons bg-orange">
+                    <img
+                      src="images/project_html.png"
+                      alt="html"
+                      width="15px"
+                    />
+                    <span className="text ">Html</span>
+                  </div>
+
+                  <div className="code_icons bg-blue">
+                    <img src="images/project_css.png" alt="css" width="15px" />
+                    <span className="text">Css</span>
+                  </div>
+                </div>
+                <p className="text_explaination">
+                  A simple Calculator webpage using Html, CSS and JavaScript
+                  which can perform all the basic math operations.
+                </p>
+              </div>
+            </div> */}
+            {/*=========== Container Box 2 Ends Here ========= */}
+            {/* =========================================================================================== */}
+            {/* Container Box 8 starts Here */}
+            {/* <div className="project-box__container">
               <div>
                 <img
                   className="project_image"
@@ -728,9 +758,7 @@ export default function Project() {
                     <h2>Wedding Site</h2>
                   </div>
                   <div className="project-box__content--box--icon">
-                    {/* <a href="/" rel="noopener noreferrer"> */}
                     <GitHubIcon className="icon-git" sx={{ fontSize: 30 }} />
-                    {/* </a> */}
                     <Tooltip title="Open the Link">
                       <IconButton>
                         <a
@@ -747,7 +775,6 @@ export default function Project() {
                     </Tooltip>
                   </div>
                 </div>
-                {/* code icon */}
                 <div className="project-box__content--code_icons">
                   <div className="code_icons bg-yellow">
                     <img
@@ -771,16 +798,14 @@ export default function Project() {
                     <span className="text">Css</span>
                   </div>
                 </div>
-                {/* ==================== code icon Ends here=======================*/}
-
                 <p className="text_explaination">
                   This a wedding website using html, css and JavaScript.
                 </p>
               </div>
-              {/*=========== Container Box 8 Ends Here ========= */}
-              {/* =========================================================================================== */}
-            </div>
-            {/* ============================================================================ */}
+            </div> */}
+            {/*=========== Container Box 8 Ends Here ========= */}
+            {/* =========================================================================================== */}
+
             {/* over */}
           </div>
         </div>
