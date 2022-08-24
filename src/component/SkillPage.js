@@ -44,16 +44,10 @@ export function SkillPage() {
                 <img src="images/skill_github.png" alt="github" />
               </div>
               <div className="language-logos">
-                <img
-                  src="https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=670&h=670&q=75&fit=max&auto=format"
-                  alt="github"
-                />
+                <img src="images/figma.png" alt="figma" />
               </div>
               <div className="language-logos">
-                <img
-                  src="https://res.cloudinary.com/practicaldev/image/fetch/s--762O-5e0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/qy0ctxjhdgvvj6e4ra10.png"
-                  alt="github"
-                />
+                <img src="images/tailwind.png" alt="tailwind" />
               </div>
             </div>
           </div>
