@@ -41,13 +41,13 @@ export function About() {
             <div className="timeline-box1">
               {/* timeline-area Starts */}
               <div className="timeline-area">
-                <div className="timeline-area-box">
+                {/* <div className="timeline-area-box">
                   <h2>PERSONAL DETAILS</h2>
                   <h3>Name: Sangeetha.</h3>
                   <h3>D.O.B: 19-05-1997.</h3>
                   <h3>Language: Tamil / English.</h3>
                   <p>Extra-curricular: Learning New Technology.</p>
-                </div>
+                </div> */}
 
                 <div className="timeline-area-box">
                   <h2>EDUCATION</h2>
@@ -65,7 +65,31 @@ export function About() {
                     Trinity Publishing Services Pvt Ltd
                   </p>
                   <h4>2017 - 2018</h4>
+                  {/* Current Job */}
+                  <div
+                    style={{
+                      backgroundColor: "#049fafa1",
+                      width: "fit - content",
+                      padding: "9px 16px 9px 8px",
+                      borderRadius: "3px",
+                    }}
+                  >
+                    <h3>Junior Software Developer(current job) </h3>
+                    <p className="timeline-small-text">
+                      Syscorp Technology Private Limited
+                    </p>
+                    <h4>2022 - 2023</h4>
+                  </div>
                 </div>
+
+                {/* <div className="timeline-area-box">
+                  <h2>WORK EXPERIENCE</h2>
+                  <h3>E-PUB (1YR) </h3>
+                  <p className="timeline-small-text">
+                    Trinity Publishing Services Pvt Ltd
+                  </p>
+                  <h4>2017 - 2018</h4>
+                </div> */}
 
                 {/* timeline-area Ends*/}
               </div>
